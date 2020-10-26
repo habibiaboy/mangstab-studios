@@ -1,4 +1,4 @@
-const CACHE_NAME = "clubCachePwa";
+const CACHE_NAME = "cacheClubPWA";
 var urlsToCache = [
   "/",
   "/nav.html",
