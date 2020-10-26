@@ -1,4 +1,4 @@
-const CACHE_NAME = "firstpwa-1";
+const CACHE_NAME = "cacheClubPWA";
 var urlsToCache = [
   "/",
   "/nav.html",
@@ -11,6 +11,7 @@ var urlsToCache = [
   "/js/materialize.min.js",
   "/js/nav.js"
 ];
+
  
 self.addEventListener("install", function(event) {
   event.waitUntil(
@@ -19,6 +20,7 @@ self.addEventListener("install", function(event) {
     })
   );
 });
+
 
 self.addEventListener("fetch", function(event) {
   event.respondWith(
