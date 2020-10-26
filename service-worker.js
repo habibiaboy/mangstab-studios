@@ -4,8 +4,9 @@ var urlsToCache = [
   "/nav.html",
   "/index.html",
   "/pages/home.html",
-  "/pages/about.html",
-  "/pages/contact.html",
+  "/pages/leicester.html",
+  "/pages/everton.html",
+  "/pages/chelsea.html",
   "/css/materialize.min.css",
   "/js/materialize.min.js",
   "/js/nav.js"
